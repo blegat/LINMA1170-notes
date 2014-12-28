@@ -1,0 +1,19 @@
+input_base: .
+output_base: /home/blegat/Dropbox
+clients:
+  - name: MAP
+    arguments: &args
+    input: &input
+      path_format: "main.pdf"
+    output:
+      path_format: MAP/{0}
+      parameters:
+        - &output_end
+          path_format: "Q5/INMA1170/Synthèses/INMA1170-notes.pdf"
+  - name: EPL Backup
+    arguments: *args
+    input: *input
+    output:
+      path_format: EPL-Backup/{0}
+      parameters:
+        - *output_end
