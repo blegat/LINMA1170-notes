@@ -1,3 +1,5 @@
+**DEPRECATED** Use [this repo](https://github.com/Gp2mv3/Syntheses/) instead.
+
 Ces notes ont été prises lors de certains cours magistraux
 lorsque la partie correspondante du syllabus n'était pas complète.
 
